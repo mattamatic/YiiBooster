@@ -83,7 +83,5 @@ class TbFormButtonElement extends CFormElement
 			Yii::app()->controller->widget('TbButton', $attributes);
 			return ob_get_clean();
 		}
-
-		return parent::render();
 	}
 }
